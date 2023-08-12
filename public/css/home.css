@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.fade {
+    background-image: url("../image/modalimg.png");
+
+}
+
+.modal-body {
+    background-color: rgba(142, 203, 227, 0.741);
+}
+
+
+.navbar {
+    background-color: #ffffffbd;
+    box-shadow: 0 5px 8px rgba(160, 148, 148, 0.638);
+    z-index: 99;
+}
+
+.navbar-brand img {
+    width: 10vh;
+}
+
+.fnt {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+.navbar ul li a {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 1rem;
+    font-weight: 900;
+    color: rgb(28, 27, 25);
+}
+
+.ss {
+    background-color: #dc3545;
+}
+
+.ss .ks {
+    color: white;
+
+}
+.mobimg{
+  display: none;
+}
+.navbar ul li a:hover {
+    border-radius: 7%;
+    box-shadow: 0px 1px 7px rgba(32, 32, 32, 0.781);
+}
+
+.carousel-item {
+    height: 47vw;
+    background-position: center;
+    background-size: cover;
+}
+
+video {
+    width: 100%;
+}
+
+/* main secction */
+
+
+label {
+    font-weight: lighter;
+}
+
+.h22 {
+    font-size: 4vw;
+    font-weight: 400;
+}
+
+.h22::before {
+    content: "Explore our courses";
+    position: absolute;
+    left: 36%;
+    color: #d9cca0b9;
+    -webkit-text-stroke: #0000006f 1px;
+    z-index: -1;
+}
+
+.card-body h5 {
+    font-weight: 600;
+    font-size: 1.2rem;
+
+}
+
+.card-body p {
+    font-size: 1.1rem;
+    margin-bottom: 70px;
+}
+
+
+.card img {
+    width: 100%;
+    height: 28vh;
+    border-radius: 10px;
+}
+
+.card {
+
+    border: none;
+}
+
+.card:hover {
+    box-shadow: 0 5px 8px rgba(160, 148, 148, 0.638);
+}
+
+.one:hover {
+    background-color: #0afbbc;
+}
+
+.two:hover {
+    background-color: #02adfc;
+}
+
+.three:hover {
+    background-color: #0bf9e9;
+}
+
+/* bg-form */
+.rowlogin {
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.txt {
+    font-size: 1.2rem;
+    font-weight: lighter;
+    letter-spacing: 1px;
+}
+
+.kk h1 {
+    letter-spacing: 1px;
+    font-size: 2.5rem;
+    font-weight: lighter;
+}
+
+.kk h5 {
+    letter-spacing: 1px;
+    font-size: 1rem;
+    text-align: justify;
+}
+
+.aboutfont p {
+    font-size: 1em;
+    text-align: justify;
+}
+
+.aboutfont img {
+    width: 100%;
+}
+
+.input-group-text {
+    background-color: transparent;
+}
+
+.input-group {
+    border-radius: 10px;
+}
+
+.line {
+    background-color: transparent;
+}
+
+.a1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.c {
+    margin-bottom: 50px;
+}
+
+/* footer start */
+.contact h3 , p{
+letter-spacing: 1px;
+}
+.contact p{
+    font-size: 0.9rem;
+}
+/* footer end */
+
+@media(max-width:1200px) {
+    .aboutfont {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+}
+
+@media (max-width:767px) {
+    .navbar {
+        background-color: rgb(142, 203, 227);
+        position: relative;
+        text-align: center;
+    }
+
+    .ss {
+        background-color: transparent;
+       
+    }
+    .ss .ks{
+        color: #dc3545;
+    
+    }
+    .navbar ul li a:hover {
+        border-radius: none;
+        box-shadow: none;
+    }
+
+    .cardlimit {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .h22 {
+        font-size: 5vw;
+    }
+
+    .h22::before {
+        content: "Explore our courses";
+        position: absolute;
+        left: 32%;
+        color: #d9cca0b9;
+        -webkit-text-stroke: #0000006f 1px;
+        z-index: -1;
+    }
+    .webimg{
+        display: none;
+    }
+    .mobimg{
+        display: inline-block;
+    }
+    .navbar-brand img {
+        width: 30vh;
+    }
+}
