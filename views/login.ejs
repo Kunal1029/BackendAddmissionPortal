@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -33,10 +34,11 @@
         <div class="row rowlogin mt-5 ">
 
             <a href="#" class="text-center fom mt-5">
-                <img src="image/psitm.png" class="w-25">
+                <img src="image/psitm.png" class="">
             </a>
-            <div class="bor h3 w-75 mt-5">
-                <h3>
+
+            <div class="bor h3 w-100 mt-5 text-center">
+                <h3 class="text-center">
                     <marquee scrollamount="12">Welcome to ITM login protal. Please fill your login credential below for
                         access details about courses. </marquee>
                 </h3>
@@ -66,25 +68,33 @@
                                     placeholder="Password" type="password" required="">
                             </div> <!-- form-password// -->
 
-                            <a href="/dashboard">
-                                <div class="form-group mb-3 mt-3">
-                                    <button type="submit" class="btn btn-xxl btn-danger btn-block g6 ">Log in </button>
-                                </div>
-                            </a><!-- form-group// -->
-                            <p class="text-center log w-75 mt-3">Don't have registered?<a href="/registration"> REGISTER
+
+                            <div class="form-group mb-3 mt-3">
+                                <a href="index.html"> <button type="submit" class="btn btn-xxl btn-danger btn-block g6 ">Log in </button></a>
+                            </div> <!-- form-group// -->
+                            <p class="text-center log w-75 mt-3">Don't have registered?<a href="registration.html">
+                                    REGISTER
                                     NOW</a>
                             </p>
-
-
-
+                            <h6 class="text-white">or Login with</h6>
+                                <div class="d-flex gap-2 mt-2 smedia">
+                                    <button class="text-center text-white btn btn-sm btn-border border-0  mb-2"><i
+                                            class="fa-brands fa-google fa-2x text-warning"></i> </button>
+                                    <button class="text-center text-white btn btn-sm  btn-border border-0 mb-2"><i
+                                            class="fa-brands fa-facebook fa-2x text-primary"></i> </button>
+                                    <button class="text-center text-white btn btn-sm btn-border border-0 mb-2"><i
+                                            class="fa-brands fa-linkedin fa-2x text-info"></i> </button>
+                                    <button class="text-center text-white btn btn-sm  btn-border border-0 mb-2"><i
+                                            class="fa-solid fa-envelope fa-2x text-danger" style="color: #ffffff;"></i> </button>
+                                </div>
 
                         </form>
                         <!-- form end -->
                     </div>
                 </div>
 
-                <div class="col-md-6">
-                    <div class="align-item-center justify-content-around d-flex mb-4 cardall">
+                <div class="col-md-6 caros">
+                    <div class="align-item-center justify-content-around d-flex mb-4 cardall imgsitm">
 
                         <div class="col-md-6 col-md" style="margin-right: 10px;">
                             <div class="card g7">
@@ -101,7 +111,8 @@
                         </div>
                     </div>
 
-                    <div class="align-item-center justify-content-around d-flex cardall">
+                    <div class="align-item-center justify-content-around d-flex cardall imgsitm">
+
                         <div class="col-md-6 col-md" style="margin-right: 10px;">
                             <div class="card">
                                 <img src="image/5.jpeg" class="w-100 " alt="">
@@ -116,6 +127,58 @@
                     </div>
 
                 </div>
+
+                <!-- carousel mode for phone view -->
+
+                <div class="carousel slide mobcaro ms-4" data-bs-ride="carousel" id="ab">
+
+                    <div class="carousel-indicators ">
+                        <button type="button" data-bs-target="#ab" data-bs-slide-to="0" class="active"></button>
+
+                        <button type="button" data-bs-target="#ab" data-bs-slide-to="1"></button>
+
+                        <button type="button" data-bs-target="#ab" data-bs-slide-to="2"></button>
+
+                        <button type="button" data-bs-target="#ab" data-bs-slide-to="3"></button>
+
+                    </div>
+
+                    <div class="carousel-inner ">
+
+                        <div class="card g7 carousel-item active" data-bs-interval="2000">
+                            <img src="https://images.collegedunia.com/public/college_data/images/campusimage/1621854593DSC_2255.jpg"
+                                class="w-100 g9" style="height: 25vh;" alt="">
+                        </div>
+
+                        <div class="card carousel-item" data-bs-interval="2000">
+                            <img src="image/zero.jpg" style="height: 25vh;" class="w-100 g8" alt="">
+                        </div>
+
+                        <div class="card carousel-item" data-bs-interval="2000">
+                            <img src="image/5.jpeg" style="height: 25vh;" class="w-100 " alt="">
+                        </div>
+
+                        <div class="card carousel-item" data-bs-interval="2000">
+                            <img src="image/4.jpg" style="height: 25vh;" class="w-100 g10" alt="">
+                        </div>
+
+
+
+                    </div><!--carusal inner -->
+
+
+                    <button type="button" data-bs-target="#ab" data-bs-slide="prev" class="carousel-control-prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+
+                    <button type="button" data-bs-target="#ab" data-bs-slide="next" class="carousel-control-next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+
+                </div>
+
+                <!-- carousel mode for phone view end-->
+
             </div>
         </div>
     </div>
